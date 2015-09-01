@@ -1,0 +1,80 @@
+body {
+  padding: 30px;
+  background: #e2e2ff;
+  font: normal 13px/18px Arial, Helvetica, sans-serif; 
+}
+
+h1 {
+  margin-left: 492px;
+  margin-bottom: 30px;
+  font-size: 32px;
+  font-style: italic;
+  color: #003380;
+}
+
+#content {
+  padding: 15px;
+  width: 500px;
+  height: 200px;
+  margin: 0 auto;
+
+  
+  background: #1e5799; 
+  background: -moz-linear-gradient(left,  #1e5799 0%, #265ac1 42%, #7db9e8 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#1e5799), color-stop(42%,#265ac1), color-stop(100%,#7db9e8)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left,  #1e5799 0%,#265ac1 42%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left,  #1e5799 0%,#265ac1 42%,#7db9e8 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left,  #1e5799 0%,#265ac1 42%,#7db9e8 100%); /* IE10+ */
+  background: linear-gradient(to right,  #1e5799 0%,#265ac1 42%,#7db9e8 100%); /* W3C */
+  
+  border: 5px outset #003380;
+  border-radius: 38px;
+}
+
+#img {
+  display: block;
+  float:left;
+  margin-left: 17px;
+  margin-top: 40px;
+  width: 100px;
+  height: 100px;
+}
+
+.left {
+  box-sizing: border-box;
+  float: left;
+  width: 35%;
+}
+.right {
+  box-sizing: border-box;
+  float: right;
+  width: 35%;
+}
+
+.title {
+  font-size: 22px;
+  margin: 10px;
+  margin-bottom: -7px;
+  color: #001a40;
+}
+.info {
+  margin-left: 15px;
+  font-size: 15px;
+  font-style: italic;
+  color: #fff;
+}
+
+.frm {
+  margin-top: 30px;
+  margin-left: 459px;
+}
+  .frm label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #003380;
+  }
+  .frm #cityValue {
+    background-color: #cccceb;
+    font-weight: bold;
+    color: #1F1F23;
+  }
